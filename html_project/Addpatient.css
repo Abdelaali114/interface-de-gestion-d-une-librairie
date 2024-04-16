@@ -1,0 +1,67 @@
+.Home {
+    background-color: #f0f0f0; /* Background color for the section */
+    padding: 50px; /* Padding around the content */
+    text-align: center; /* Center-align the content */
+}
+
+.Home h1 {
+    font-size: 36px; /* Font size for the heading */
+    color: #333; /* Text color */
+    text-align: justify;
+    margin-left: 35%;
+}
+
+.Home h1 span {
+    color:  rgb(0, 100, 0); /* Color for the word "Pharmacy" */
+}
+
+
+.Home form{
+   width: 500px;
+   margin-left: 30%;
+   border: 2px solid #ccc; /*l2itarr*/
+   padding: 30px;
+   background: #ffff;
+   border-radius: 15px; /*//l9nati m9wssin*/
+
+}
+
+
+h2{
+   text-align: center;
+   margin-bottom: 40px;
+}
+input{
+   display: block; /*//affichage verticalrmrnt*/
+   border: 2px solid #ccc;
+   width: 95%;
+   padding: 10px; /*//la marge dans tous les cotes*/
+   margin: 10px auto; 
+   border-radius: 5px;
+}
+label{
+   color: #888;
+   font-size: 18px;
+   padding: 10px;
+}
+button{
+   float: right;
+   background: #62d685;
+   padding: 10px 15px;
+   border-radius: 5px;
+   margin-right: 10px;
+   border: none;
+}
+button:hover{
+   opacity: .7; /* z3ma mli thet 3lih l curseur itbdel lon*/
+
+
+}
+.error{
+   background: #F2DEDE;
+   color: #A94442;
+   padding: 10px;
+   width: 95%;
+   border-radius: 5px;
+
+}

@@ -1,0 +1,79 @@
+body{
+  
+    box-sizing: border-box;
+}
+.backround img{
+    max-width: 100%;
+    height: auto;
+}
+
+.header{
+    background-color: rgb(0, 100, 0);
+    text-align: right;
+    border-radius: 5px;
+}
+.logo{
+    padding-right: 680px;
+    color: aliceblue;
+}
+ul .a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.header ul{
+
+   display: inline-flex;
+   list-style: none; 
+}
+.header ul li a{
+    padding: 10px;
+    margin-right: 15px;
+    color: #fff;
+}
+.header li a {
+    text-decoration: none;
+    color: #fff;
+}
+.active, .header ul li :hover
+{
+    background-color: #2bab0d;
+    border-radius: 5px;
+}
+
+
+
+footer {
+  background-color:  rgb(0, 100, 0);
+  color: #fff;
+  padding: 20px 0;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-logo img {
+  width: 100px; /* Ajustez la taille de votre logo selon vos besoins */
+}
+
+.footer-links ul,
+.footer-social ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-links a,
+.footer-social a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding-top: 10px;
+  border-top: 1px solid #555;
+  margin-top: 10px;
+}
